@@ -6206,11 +6206,14 @@ header.header-prod {
 @media only screen and (min-width:1025px) {
     .header-prod__infos {
         margin: 0;
-        padding: 8rem 0 0 9rem;
+        padding: 0;
         width: 60rem
     }
 }
 
+h1.header-prod__title {
+    font-weight: 500
+}
 @media only screen and (min-width:1025px) {
     .header-prod__infos__hold {
         margin: 2.1rem 0 0;
@@ -8324,7 +8327,7 @@ section.about-index {
     --white: #fff;
     --decor: #727171;
     --soft: #ebe6d7;
-    --lineColor: rgb(46, 46, 46);
+    --lineColor: rgba(46, 46, 46, 0.1);
     --color: #645832;
     --gap-header: calc(var(--vh)*4.5 + 2.3rem);
     --gap-indic: 7.8rem;
@@ -8415,4 +8418,9 @@ section.about-index {
     font-size: 1.4rem;
     line-height: 1.7rem;
     margin: 2rem 0
+}
+
+.info-box {
+border-bottom: 1px solid var(--lineColor);
+padding: 5%;
 }
