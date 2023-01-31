@@ -6126,7 +6126,8 @@ header.header-prod {
     border-bottom: 1px solid var(--lineColor);
     height: 53.3rem;
     position: relative;
-    width: 100vw
+    width: 100vw;
+    background: linear-gradient(356.01deg, rgba(0, 0, 0, 0.216) -70.99%, rgba(0, 0, 0, 0) 95.56%), linear-gradient(315deg, #d0cfc4 0%, #fefaf5 100%), #FFFFFF;
 }
 
 @media only screen and (min-width:1025px) {
@@ -6212,7 +6213,7 @@ header.header-prod {
 }
 
 h1.header-prod__title {
-    font-weight: 500
+    font-weight: 700
 }
 @media only screen and (min-width:1025px) {
     .header-prod__infos__hold {
@@ -8327,7 +8328,7 @@ section.about-index {
     --white: #fff;
     --decor: #727171;
     --soft: #ebe6d7;
-    --lineColor: rgba(46, 46, 46, 0.1);
+    --lineColor: rgba(46, 46, 46, 0.2);
     --color: #645832;
     --gap-header: calc(var(--vh)*4.5 + 2.3rem);
     --gap-indic: 7.8rem;
@@ -8335,10 +8336,28 @@ section.about-index {
     --gt: "Everett", sans-serif;
     --sans: "Everett", "Helvetica", sans-serif;
     --serif: "Everett", "Century", serif;
-    --greenbg: linear-gradient(268.55deg, rgba(0, 0, 0, 0.3) 3.23%, rgba(0, 0, 0, 0) 43.7%), linear-gradient(315deg, #B4BA9B 0%, rgba(209, 215, 186, 0.92) 100%), #FFFFFF;
+    --greenbg: linear-gradient(268.55deg, rgba(0, 0, 0, 0.3) 3.23%, rgba(0, 0, 0, 0) 43.7%), linear-gradient(315deg, #dcd6d0 0%, #fefaf5 100%), #FFFFFF;
    
 
 }
+
+
+
+.noise {
+    display: block!important;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    z-index: 99999;
+    background-image: url(https://raw.githubusercontent.com/haroldao/medias/main/Noise_Animated_Texture.gif);
+    background-position: 0px 0px;
+    background-size: auto;
+    opacity: .04;
+    pointer-events: none
+}
+
 
 @media only screen and (min-width:1025px) {
     :root {
